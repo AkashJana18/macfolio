@@ -35,4 +35,4 @@ const navIcons = [
   },
 ];
 
-export default { navIcons, navLinks };
+export { navIcons, navLinks };

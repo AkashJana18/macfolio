@@ -1,9 +1,11 @@
-import React from 'react'
+import Navbar from "#components/Navbar";
 
 const App = () => {
   return (
-    <h1 className='bold'>Welcome to my macfolio</h1>
-  )
-}
+    <main>
+      <Navbar />
+    </main>
+  );
+};
 
-export default App
+export default App;

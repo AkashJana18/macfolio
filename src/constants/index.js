@@ -73,3 +73,43 @@ export const dockApps = [
     canOpen: false,
   },
 ];
+
+export const INITIAL_Z_INDEX = 1000;
+
+export const WINDOW_CONFIG = {
+  finder: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  contact: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  resume: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  safari: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  photos: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  terminal: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  txtfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  imgfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+};
+
+export const techStack = [
+  {
+    category: "Frontend",
+    items: ["React.js", "Next.js", "JavaScript", "TypeScript"],
+  },
+  {
+    category: "Styling",
+    items: ["Tailwindcss", "Sass", "CSS"],
+  },
+  {
+    category: "Backend",
+    items: ["Node.js", "Express", "Rust"],
+  },
+  {
+    category: "Database",
+    items: ["MongoDB", "PostgreSQL", "SQL"],
+  },
+  {
+    category: "Web3",
+    items: ["Solana", "Base", "Ethereum"],
+  },
+  {
+    category: "Dev Tools",
+    items: ["Git", "GitHub", "Docker"],
+  },
+];

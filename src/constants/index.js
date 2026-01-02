@@ -115,48 +115,27 @@ export const techStack = [
 ];
 
 export const blogPosts = [
-  // {
-  //   id: 1,
-  //   date: "Feb 2025",
-  //   title: "ShareBox: UCAN-Powered File Sharing Platform Built on Storacha",
-  //   image: "/images/blog-sharebox.png",
-  //   link: "https://medium.com/@akashjana663/sharebox-ucan-powered-file-sharing-platform-built-on-storacha",
-  // },
-  // {
-  //   id: 2,
-  //   date: "Jan 2025",
-  //   title:
-  //     "SecretShare: Secure One-Time Access to Secrets Using UCANs and Storacha",
-  //   image: "/images/blog-secretshare.png",
-  //   link: "https://medium.com/@akashjana663/secretshare-secure-one-time-access-to-secrets-built-with-ucans-and-storacha",
-  // },
-  // {
-  //   id: 3,
-  //   date: "Dec 2024",
-  //   title: "DocumentSigner: Tracking System Using Storacha, UCANs, and IPNS",
-  //   image: "/images/blog-documentsigner.png",
-  //   link: "https://medium.com/@akashjana663/documentsigner-tracking-system-using-storacha-ucans-and-ipns",
-  // },
   {
-    id: 4,
-    date: "Nov 2024",
+    id: 1,
+    date: "Sept 2025",
+    title:
+      "How to Add Filecoin Mainnet to MetaMask🦊, Stay Safe, and Cash Out on Binance",
+    image: "/images/MFB.png",
+    link: "https://medium.com/@akashjana663/how-to-add-filecoin-mainnet-to-metamask-stay-safe-and-cash-out-on-binance-b473b6c06b57",
+  },
+  {
+    id: 2,
+    date: "Aug 2025",
     title: "Bridging OrbitDB with Storacha for Decentralized Database Backups",
     image: "/images/blog-orbitdb.png",
-    link: "https://medium.com/@akashjana663/bridging-orbitdb-with-storacha-decentralized-database-backups",
+    link: "https://medium.com/@akashjana663/bridging-orbitdb-with-storacha-decentralized-database-backups-44c7bee5c395",
   },
   {
-    id: 5,
-    date: "Oct 2024",
+    id: 3,
+    date: "Nov 2024",
     title: "From Zero to Merge: Building a JSON Renaming Field Component in Go",
-    image: "/images/blog-go-json.png",
-    link: "https://dev.to/akashjana/from-zero-to-merge-building-a-json-renaming-field-component-in-go",
-  },
-  {
-    id: 6,
-    date: "Oct 2024",
-    title: "How I Built CopilotMate with CopilotKit AI",
-    image: "/images/blog-copilotmate.png",
-    link: "https://dev.to/akashjana/how-i-built-copilotmate-with-copilotkit-ai",
+    image: "/images/instill banner.png",
+    link: "https://dev.to/akashjana/from-zero-to-merge-building-a-json-renaming-field-component-in-go-17nh",
   },
 ];
 

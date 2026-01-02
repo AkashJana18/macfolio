@@ -7,6 +7,9 @@ import Dock from "#components/Dock";
 import Terminal from "#windows/Terminal";
 import Safari from "#windows/Safari";
 import Resume from "#windows/Resume";
+import Finder from "#windows/Finder";
+import TextFile from "#windows/text";
+import ImageFile from "#windows/Image";
 
 gsap.registerPlugin(Draggable);
 
@@ -20,6 +23,9 @@ const App = () => {
       <Terminal />
       <Safari />
       <Resume />
+      <Finder />
+      <TextFile />
+      <ImageFile />
     </main>
   );
 };

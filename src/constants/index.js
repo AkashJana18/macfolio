@@ -267,7 +267,7 @@ const WORK_LOCATION = {
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
-          position: "top-5 left-10",
+          position: "top-10 left-5",
           description: [
             "Cryptack is a crypto tracking app that helps users compare coins, view charts, and build a watchlist from the top 100 cryptocurrencies.",
             "Instead of static price tables, it provides interactive graphs for price, volume, and market cap for quick analysis.",
@@ -304,7 +304,6 @@ const WORK_LOCATION = {
         },
       ],
     },
-
     // ▶ Project 4
     {
       id: 104,
@@ -320,7 +319,7 @@ const WORK_LOCATION = {
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
-          position: "top-5 left-10",
+          position: "top-6 left-8",
           description: [
             "CopilotMate is an open-source personal assistant that helps with productivity workflows like todo management, spreadsheets, chat, and expense tracking.",
             "Includes a StudyBuddy co-agent for note-taking, quiz creation, and study planning.",
@@ -335,7 +334,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "url",
           href: "https://youtu.be/qPVRPUH8ewU",
-          position: "top-10 right-20",
+          position: "top-10 right-16",
         },
         {
           id: 1043,
@@ -343,7 +342,7 @@ const WORK_LOCATION = {
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
-          position: "top-52 right-80",
+          position: "top-44 left-24",
           imageUrl: "/images/copilotmate.png",
         },
         {
@@ -353,7 +352,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "fig",
           href: "https://github.com/AkashJana18/copilotmate",
-          position: "top-60 right-20",
+          position: "top-56 right-24",
         },
       ],
     },
@@ -373,7 +372,7 @@ const WORK_LOCATION = {
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
-          position: "top-5 left-10",
+          position: "top-6 left-10",
           description: [
             "A modern developer portfolio showcasing interactive UI, 3D elements, and motion-driven sections.",
             "Includes dynamic hero visuals, bento-style layout, interactive components, testimonials, and experience blocks.",
@@ -388,7 +387,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "url",
           href: "https://github.com/AkashJana18/portfolio",
-          position: "top-10 right-20",
+          position: "top-12 right-20",
         },
         {
           id: 1053,
@@ -396,7 +395,7 @@ const WORK_LOCATION = {
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
-          position: "top-52 right-80",
+          position: "top-48 left-32",
           imageUrl: "/images/portfolio.png",
         },
         {
@@ -406,7 +405,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "fig",
           href: "https://github.com/AkashJana18/portfolio",
-          position: "top-60 right-20",
+          position: "top-60 right-28",
         },
       ],
     },
@@ -426,7 +425,7 @@ const WORK_LOCATION = {
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
-          position: "top-5 left-10",
+          position: "top-6 left-12",
           description: [
             "A clean landing page starter built with React + Vite for fast development and smooth iteration.",
             "Good for showcasing a product hero section, feature blocks, and CTA-driven marketing layout.",
@@ -441,7 +440,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "url",
           href: "https://github.com/AkashJana18/shoe-landing-pg",
-          position: "top-10 right-20",
+          position: "top-14 right-24",
         },
         {
           id: 1063,
@@ -449,7 +448,7 @@ const WORK_LOCATION = {
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
-          position: "top-52 right-80",
+          position: "top-44 left-36",
           imageUrl: "/images/nike.png",
         },
         {
@@ -475,30 +474,30 @@ const ABOUT_LOCATION = {
   children: [
     {
       id: 1,
-      name: "me.png",
+      name: "Universal pfp.png",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/dp.jpg",
     },
     {
       id: 2,
-      name: "casual-me.png",
+      name: "foodie-me.png",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      imageUrl: "/images/foodie-me.jpg",
     },
     {
       id: 3,
-      name: "conference-me.png",
+      name: "casual-me.png",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
+      imageUrl: "/images/casual-me.jpg",
     },
     {
       id: 4,
@@ -508,12 +507,12 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      image: "/images/formal-me.jpg",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "Hey! I’m Akash 👋 a frontend and Web3 developer who likes building smooth, interactive things on the internet.",
+        "I mainly work with TS, JS, rust, React, and Next.js, and I care a lot about performance, motion, and clean UI. Good UX, readable code, and interfaces that don’t feel clunky are my priorities.",
+        "Outside coding, I’m usually painting, playing chess, watching anime, or thinking about food—mostly as an introvert who enjoys building quietly 🎨♟️🍱",
+        "In 2026, I’m actively stepping outside my comfort zone: creating content on YouTube, experimenting with Twitch, meeting people at conferences, and building discipline through running and calisthenics.",
       ],
     },
   ],

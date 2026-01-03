@@ -571,3 +571,66 @@ export const locations = {
   resume: RESUME_LOCATION,
   trash: TRASH_LOCATION,
 };
+
+import {
+  FaLinkedin,
+  FaDev,
+  FaDiscord,
+  FaInstagram,
+  FaEnvelope,
+  FaMedium,
+} from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { MdOutlineMail } from "react-icons/md";
+export const contactLinks = [
+  {
+    id: "linkedin",
+    name: "LinkedIn",
+    href: "https://linkedin.com/in/akashjana",
+    icon: FaLinkedin,
+    color: "text-[#0A66C2]",
+  },
+  {
+    id: "gmail",
+    name: "Email",
+    href: "mailto:akashjana663@gmail.com",
+    icon: MdOutlineMail,
+    color: "text-[#EA4335]",
+  },
+  {
+    id: "twitter",
+    name: "X (Twitter)",
+    href: "https://x.com/akashjana__",
+    icon: FaXTwitter,
+    color: "text-black",
+  },
+  {
+    id: "discord",
+    name: "Discord",
+    href: "https://discord.com/users/etherious_natsu_dragoneel",
+    icon: FaDiscord,
+    color: "text-[#5865F2]",
+  },
+  {
+    id: "medium",
+    name: "Medium",
+    href: "https://medium.com/@akashjana663",
+    icon: FaMedium,
+    color: "text-black",
+  },
+  {
+    id: "dev",
+    name: "DEV.to",
+    href: "https://dev.to/akashjana",
+    icon: FaDev,
+    color: "text-black",
+  },
+
+  {
+    id: "instagram",
+    name: "Instagram",
+    href: "https://instagram.com/akashjana__",
+    icon: FaInstagram,
+    color: "text-purple-500",
+  },
+];
